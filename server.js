@@ -10,7 +10,7 @@ app.use(express.json());
 app.use('/bajus', bajuRoutes);
 app.use('/celanas', celanaRoutes);
 
-const uri = 'mongodb+srv://marcelo123:marcelo123@cluster0.rcoboug.mongodb.net/baju?retryWrites=true&w=majority';
+const uri = 'mongodb+srv://sastikadwiapriyanti2:sastikadwiapriyanti2@cluster0.ipnxtnz.mongodb.net/baju?retryWrites=true&w=majority';
 
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
